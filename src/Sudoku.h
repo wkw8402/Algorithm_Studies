@@ -12,7 +12,7 @@ using std::unordered_set;
 using std::vector;
 using namespace std;
 
-class sudoku {
+class Sudoku {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
 

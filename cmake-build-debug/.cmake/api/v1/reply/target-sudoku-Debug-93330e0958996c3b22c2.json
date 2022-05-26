@@ -108,7 +108,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/sudoku.cpp",
+			"path" : "src/Sudoku.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

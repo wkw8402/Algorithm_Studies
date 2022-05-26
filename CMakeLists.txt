@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(src)
 
-add_executable(sudoku src/sudoku.cpp)
+add_executable(sudoku src/Sudoku.cpp)
