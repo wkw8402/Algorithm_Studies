@@ -5,6 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(src)
 
-add_executable(LeetCode
-        src/InOrder.cpp
-        src/InOrder.h)
+add_executable(sudoku src/sudoku.cpp)
