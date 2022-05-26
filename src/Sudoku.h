@@ -44,7 +44,7 @@ public:
             }
         }
 
-        //checking sub-boxes
+        //checking boxes
         unordered_set<char> box;
         for (int i = 0; i < board.size(); i += 3) {
             for (int j = 0; j < board[0].size(); j += 3) {
