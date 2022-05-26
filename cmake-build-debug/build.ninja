@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/paulwoo/IdeaProjects/LeetCode/cmake-build-debug/
 
 build cmake_object_order_depends_target_sudoku: phony || CMakeFiles/sudoku.dir
 
-build CMakeFiles/sudoku.dir/src/Sudoku.cpp.o: CXX_COMPILER__sudoku_Debug /Users/paulwoo/IdeaProjects/LeetCode/src/Sudoku.cpp || cmake_object_order_depends_target_sudoku
-  DEP_FILE = CMakeFiles/sudoku.dir/src/Sudoku.cpp.o.d
+build CMakeFiles/sudoku.dir/src/sudoku.cpp.o: CXX_COMPILER__sudoku_Debug /Users/paulwoo/IdeaProjects/LeetCode/src/sudoku.cpp || cmake_object_order_depends_target_sudoku
+  DEP_FILE = CMakeFiles/sudoku.dir/src/sudoku.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   INCLUDES = -I/Users/paulwoo/IdeaProjects/LeetCode/src
   OBJECT_DIR = CMakeFiles/sudoku.dir
@@ -64,7 +64,7 @@ build CMakeFiles/sudoku.dir/src/Sudoku.cpp.o: CXX_COMPILER__sudoku_Debug /Users/
 #############################################
 # Link the executable sudoku
 
-build sudoku: CXX_EXECUTABLE_LINKER__sudoku_Debug CMakeFiles/sudoku.dir/src/Sudoku.cpp.o
+build sudoku: CXX_EXECUTABLE_LINKER__sudoku_Debug CMakeFiles/sudoku.dir/src/sudoku.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/sudoku.dir
   POST_BUILD = :
