@@ -21,7 +21,7 @@ class ECHashStringSet implements StringSet {
             _buckets[where(input)] = new LinkedList<String>();
         }
         _buckets[where(input)].add(input);
-        _numElements += 1;
+        _numElements++;
     }
 
     private void resize() {
